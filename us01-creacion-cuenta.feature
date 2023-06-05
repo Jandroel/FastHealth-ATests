@@ -3,7 +3,7 @@ Feature: US01 - Creación de cuenta
     Como usuario quiero crear una cuenta nueva desde el aplicativo
     para poder acceder a todos los servicios que ofrece.
 
-    #------------------------------------------------------------------------- 
+    #----------------------------------------------------------------------------------------
     Scenario: Crear cuenta
 
         Given El usuario desea crear una cuenta
@@ -23,7 +23,7 @@ Feature: US01 - Creación de cuenta
         | datos ingresados correctamente | 
 
 
-    #-------------------------------------------------------------------------
+    #----------------------------------------------------------------------------------------
     Scenario: Verificación de cuenta
         
         Given El usuario desea confirmar la cuenta creada
