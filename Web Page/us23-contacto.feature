@@ -1,6 +1,7 @@
 Feature: US23 - Contacto FastHealth
 
-    Como usuario quiero poder hacer llegar mensajes a administradores o personas dentro de la compañía para poder escuchar mis opiniones, propuestas, preguntas o reclamos sobre el servicio.
+    Como usuario quiero poder hacer llegar mensajes a administradores o personas dentro de la compañía para poder 
+    escuchar mis opiniones, propuestas, preguntas o reclamos sobre el servicio.
 
     #----------------------------------------------------------------------------------------
     Scenario: Envío Exitoso
