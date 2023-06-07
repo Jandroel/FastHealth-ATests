@@ -1,6 +1,7 @@
 Feature: US22 - Crear Cuenta
 
-    Como usuario quiero poder crear mi cuenta en FastHealth para qué cuando me descarge la aplicacion poder loguearme sin mayor inconveniente
+    Como usuario quiero poder crear mi cuenta en FastHealth para qué cuando me descarge la 
+    aplicacion poder loguearme sin mayor inconveniente
 
     #----------------------------------------------------------------------------------------
     Scenario: Creación de Cuenta Exitosa
@@ -19,7 +20,8 @@ Feature: US22 - Crear Cuenta
     #----------------------------------------------------------------------------------------
     Scenario: Correo ya Registrado
 
-        Given a qué el correo <Email> ingresado ya esta registrado bajo una cuenta existente en a la base de datos de FastHealth
+        Given a qué el correo <Email> ingresado ya esta registrado bajo una cuenta existente en a la base 
+        de datos de FastHealth
 
         When  le de click al botón Registrarse
 
@@ -31,7 +33,8 @@ Feature: US22 - Crear Cuenta
     #----------------------------------------------------------------------------------------
     Scenario: Datos no Válidos
 
-        Given a qué no se han llenado todos los campos  <Names> <LastNames> <Email> <Password> <ConfirmPasword> con información válida
+        Given a qué no se han llenado todos los campos  <Names> <LastNames> <Email> <Password> 
+        <ConfirmPasword> con información válida
 
         When le de click al botón Registrarse
 
@@ -43,7 +46,8 @@ Example:
     #----------------------------------------------------------------------------------------
     Scenario: Datos Omitidos
 
-        Given a qué no se han llenado todos los campos  <Names> <LastNames> <Email> <Password> <ConfirmPasword>
+        Given a qué no se han llenado todos los campos  <Names> <LastNames> <Email> <Password> 
+        <ConfirmPasword>
 
         When le de click al botón Registrarse
 
