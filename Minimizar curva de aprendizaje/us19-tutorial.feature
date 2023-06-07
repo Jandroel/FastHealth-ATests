@@ -1,4 +1,4 @@
-Feature: US13 - Tutorial de uso
+Feature: US19 - Tutorial de uso
 
     Como usuario farmaceutico, quiero, la primera vez qué use la aplicación, ver pop.ups con 
     instrucciones de uso e información adicional de las funciones y propósitos de todas las
@@ -24,7 +24,7 @@ Feature: US13 - Tutorial de uso
         Then me saldrán pop-ups qué me guiaran por un recorrido del programa explicando qué
              hace cada parte y como se usa
 
-                 #----------------------------------------------------------------------------------------
+    #----------------------------------------------------------------------------------------
     Scenario: Rechaza tutorial
         
         Given tengo la opción de seguir un tutorial para aprender a usar la aplicación
